@@ -8,8 +8,8 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  
-  // Add a variable to the functions scope for shadowing
+
+  // Add a variable to the functions scope for shadowing, and also to not reassign existing global variable without using var
   var animal = 'cat'
   return animal
 }
